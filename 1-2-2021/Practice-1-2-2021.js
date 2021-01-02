@@ -22,3 +22,13 @@ console.log(filter_list([1,'a','b',0,15]))
 // Output '[1, 0, 15]'
 console.log(filter_list([1,2,'a','b']))
 // Output '[1, 2]'
+
+
+
+function usdcny(usd) {
+    let conversion = usd * 6.75
+    return conversion.toFixed(2) + ' Chinese Yuan'
+}
+
+console.log(usdcny(15))
+console.log(usdcny(465))
