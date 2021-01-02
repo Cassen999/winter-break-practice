@@ -1,0 +1,1 @@
+Instead of codewars, today I finished my wire frame for my personal project
